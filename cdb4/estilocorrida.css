@@ -1,0 +1,76 @@
+@charset "UTF-8";/* setagem de caracteres UTF-8 (Aceita acentuação, e caracteres especiais diferentemente da ANSI)  */
+@font-face {font-family: 'fontlogo';
+src: url("_fontes/Montserrat-Regular.ttf");}
+
+body {background-color: #f0f0f0;}
+
+
+h1 { font-family: 'fontlogo';
+text-align:center;
+color: rgba (29, 29, 29,1); /* rosa: rgba(197,46,179,1); */
+text-shadow: 1px 1px 1px rgba(00,00,00,.3);
+font-weight: 100;
+margin-bottom: 40px;
+
+}
+
+h2 {font-family: 'fontlogo';
+color: rgba(197,46,179,1);
+font-weight: 400;
+margin: 5px;}
+
+h3 {font-family: 'fontlogo';
+color: rgba(197,46,179,1);
+font-weight: 400;
+margin: 5px;}
+
+h4 {font-family: arial;
+color: #6a6a6a;
+font-weight: 200;}
+
+
+header img {float: right;
+position: relative;
+}
+
+header{text-align: center;
+	background-color:rgba(29, 29, 29,1);
+padding:20px ;
+display: block;
+position: absolute;
+top:0px;
+left:0px;
+width:100%;
+}
+
+header a:hover { color:#f0f0f0;}
+
+table { border: 1px solid rgba(29, 29, 29,1);
+border-spacing: 0px;}
+
+table td { border: 1px solid rgba(29, 29, 29,1);
+padding: 10px;
+}
+
+ header li{display: inline-block;
+padding: 5px;
+margin:2px;
+}
+
+ header a{text-decoration:none;
+ color: rgba(197,46,179,1);
+ transition: color .5s;}
+
+header ul {list-style:none;  /*display: block;
+background-color: rgba(240,240,240,1);*/
+	
+position: absolute; }
+
+
+
+section#participantes {display: block;
+width:600px;
+margin: 230px auto 10px auto; }
+
+section#participantes img {display:block;
+margin:10px auto 10px auto;}
